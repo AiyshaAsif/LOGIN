@@ -1,0 +1,443 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles for the top navbar */
+.top-nav {
+    background-color: #0C612E; /* Dark green background */
+    color: #fff; /* White text color */
+}
+
+/* Container for top navbar content */
+.top-nav .container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Center items vertically */
+}
+
+/* Styles for the left side of top navbar */
+.top-nav .navbar-left {
+    flex-grow: 1; /* Grow to take available space */
+}
+
+/* Logo styles */
+.logo img {
+    width: 130px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Styles for the right side of top navbar */
+.navbar-right {
+    padding-right: 20px; /* Add padding to the right */
+}
+
+/* Style the links in both top and bottom navbars */
+.top-nav a,
+.bottom-nav a {
+    color: #fff; /* White text color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make text bold */
+    display: block; /* Ensure links occupy full width */
+    text-align: left; /* Align links to the left */
+    padding: 10px 20px; /* Add padding to create space around links */
+}
+
+/* Style for 'Book Now' button */
+.book-now,
+.login-register {
+    padding: 20px 30px;
+    background-color: #1FAB3E; /* Match bottom navbar color */
+    color: #fff; /* White text color */
+    border-radius: 2px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Styles for the bottom navbar */
+.bottom-nav {
+    background-color: #1FAB3E; /* Same color as top navbar */
+    color: #fff; /* White text color */
+    text-align: center; /* Center text */
+}
+
+/* Container for bottom navbar content */
+.bottom-nav .container ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    text-align: left; /* Align text to the left */
+}
+
+/* Styles for items in bottom navbar */
+.bottom-nav .container ul li {
+    display: inline-block; /* Display items inline */
+    margin-right: 10px; /* Add spacing between items */
+    font-size: 14px; /* Reduce font size */
+}
+
+/* Remove margin for last item in bottom navbar */
+.bottom-nav .container ul li:last-child {
+    margin-right: 0;
+}
+/* Styles for items in bottom navbar */
+.bottom-nav .container ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    text-align: center; /* Center text */
+    white-space: nowrap; /* Prevent links from wrapping */
+}
+
+/* Styles for items in bottom navbar */
+.bottom-nav .container ul li {
+    display: inline-block; /* Display items inline */
+    margin-right: 10px; /* Add spacing between items */
+    font-size: 14px; /* Reduce font size */
+}
+
+/* Header styles */
+header {
+    background-color: #0C612E; /* Dark green background */
+    color: #fff; /* White text color */
+    padding: 20px 0; /* Add padding */
+    text-align: center; /* Center align text */
+}
+
+/* Style for images inside card bodies */
+.card-body img {
+    width: 100%; /* Ensure images fill container */
+    height: 100%; /* Ensure images fill container */
+    object-fit: cover; /* Maintain aspect ratio */
+}
+
+/* Section styles */
+.section {
+    padding: 50px 0; /* Add padding */
+}
+
+.section h2 {
+    text-align: center; /* Center align heading */
+    margin-bottom: 30px; /* Add space at the bottom */
+}
+
+/* Service card styles */
+.service-card {
+    background-color: #f9f9f9; /* Light gray background */
+    padding: 20px; /* Add padding */
+    border-radius: 5px; /* Rounded corners */
+    text-align: center; /* Center align text */
+    margin-bottom: 20px; /* Add space at the bottom */
+}
+
+.service-card i {
+    font-size: 36px; /* Set font size */
+    color: #0C612E; /* Dark green color */
+}
+
+.service-card h3 {
+    margin-top: 20px; /* Add space at the top */
+    margin-bottom: 10px; /* Add space at the bottom */
+}
+
+/* Styles for custom buttons */
+.custom-btn,
+.btn-download {
+    background-color: #0C612E; /* Same color as navbar */
+    border-color: #0C612E; /* Same color as navbar */
+}
+
+/* Hover styles for custom buttons */
+.custom-btn:hover,
+.btn-download:hover {
+    background-color: #095428; /* Darker shade for hover effect */
+    border-color: #095428; /* Darker shade for hover effect */
+}
+
+/* Styles for map container */
+.map-container {
+    border: 2px solid #0C612E; /* Green border color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Add padding inside the box */
+}
+
+/* Custom CSS */
+.btn-primary {
+    background-color: #0C612E; /* Change to match your desired color */
+    border-color: #0C612E; /* Change to match your desired color */
+}
+
+/* Styles for map images */
+.map-container img {
+    width: 100%; /* Ensure the map fills the container */
+}
+
+/* Styles for terms box */
+.terms-box {
+    border: 2px solid #000; /* Black border */
+    padding: 20px; /* Add padding */
+    margin-bottom: 20px; /* Add space at the bottom */
+}
+
+.terms-box h1 {
+    text-align: center; /* Center heading */
+    border-bottom: 1px solid #000; /* Add border under heading */
+    padding-bottom: 10px; /* Add padding under heading */
+    margin-bottom: 20px; /* Add space under heading */
+}
+
+.terms-box h2 {
+    border-bottom: 1px solid #000; /* Add border under subheading */
+    padding-bottom: 10px; /* Add padding under subheading */
+    margin-bottom: 10px; /* Add space under subheading */
+}
+
+.terms-box p {
+    margin-bottom: 15px; /* Add space between paragraphs */
+}
+
+/* Styles for Privacy Policy and Cookies containers */
+.privacy-policy-container,
+.cookies-container {
+    max-width: 800px; /* Set max width */
+    margin: 0 auto; /* Center horizontally */
+    padding: 20px; /* Add padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light gray background */
+}
+
+.privacy-policy-container h2,
+.cookies-container h2 {
+    margin-bottom: 20px; /* Add space after heading */
+}
+
+.privacy-policy-container h3,
+.cookies-container h3 {
+    margin-top: 20px; /* Add space before subheading */
+}
+
+.privacy-policy-container p,
+.cookies-container p {
+    margin-bottom: 15px; /* Add space between paragraphs */
+}
+
+.cookies-container ul {
+    margin-bottom: 15px; /* Add space at the bottom */
+}
+
+.cookies-container ul li {
+    list-style-type: disc; /* Use disc bullets */
+    margin-left: 20px; /* Indent list items */
+}
+
+.cookies-container a {
+    color: #17c911; /* Blue link color */
+    text-decoration: underline; /* Underline links */
+}
+
+.cookies-container a:hover {
+    text-decoration: none; /* Remove underline on hover */
+}
+
+/* Full-width layout for map container and footer */
+.map-container,
+.footer-clean {
+    width: 100%; /* Set width to 100% */
+}
+
+/* Styles for footer */
+.footer-clean {
+    padding: 50px 0; /* Add padding */
+    background-color: #0C612E; /* Dark green background */
+    color: #ffffff; /* White text color */
+}
+
+.footer-clean h3 {
+    margin-top: 0; /* Remove top margin */
+    margin-bottom: 12px; /* Add bottom margin */
+    font-weight: bold; /* Make heading bold */
+    font-size: 16px; /* Set font size */
+}
+
+.footer-clean ul {
+    padding: 0; /* Remove padding */
+    list-style: none; /* Remove default list styles */
+    line-height: 1.6; /* Set line height */
+    font-size: 14px; /* Set font size */
+    margin-bottom: 0; /* Remove bottom margin */
+}
+
+.footer-clean ul a {
+    color: inherit; /* Inherit text color */
+    text-decoration: none; /* Remove underline */
+    opacity: 0.8; /* Set opacity */
+}
+
+.footer-clean ul a:hover {
+    opacity: 1; /* Change opacity on hover */
+}
+
+.footer-clean .item.social {
+    text-align: right; /* Align social icons to the right */
+}
+
+/* Media queries for footer */
+@media (max-width: 900px) {
+    .footer-clean .item {
+        text-align: center; /* Center align items */
+        padding-bottom: 20px; /* Add space at the bottom */
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-clean .item.social {
+        text-align: center; /* Center align social icons */
+    }
+}
+
+.footer-clean .item.social > a {
+    font-size: 24px; /* Set font size */
+    width: 40px; /* Set width */
+    height: 40px; /* Set height */
+    line-height: 40px; /* Set line height */
+    display: inline-block; /* Display as inline block */
+    text-align: center; /* Center align text */
+    border-radius: 50%; /* Circular border */
+    border: 1px solid #ccc; /* Gray border */
+    margin-left: 10px; /* Add space on the left */
+    margin-top: 22px; /* Add space at the top */
+    color: inherit; /* Inherit text color */
+    opacity: 0.75; /* Set opacity */
+}
+
+.footer-clean .item.social > a:hover {
+    opacity: 0.9; /* Change opacity on hover */
+}
+
+/* Additional media queries for footer */
+@media (max-width: 991px) {
+    .footer-clean .item.social > a {
+        margin-top: 40px; /* Adjust space at the top */
+    }
+}
+
+@media (max-width: 767px) {
+    .footer-clean .item.social > a {
+        margin-top: 10px; /* Adjust space at the top */
+    }
+}
+
+.footer-clean .copyright {
+    margin-top: 14px; /* Add space at the top */
+    margin-bottom: 0; /* Remove bottom margin */
+    font-size: 13px; /* Set font size */
+    opacity: 0.6; /* Set opacity */
+}
+
+/* Styles for cookie banner */
+.cookie-banner {
+    position: fixed; /* Fixed positioning */
+    bottom: 0; /* Positioned at the bottom */
+    left: 0; /* Positioned at the left */
+    width: 100%; /* Set width to 100% */
+    padding: 10px 0; /* Add padding */
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text color */
+    text-align: center; /* Center align text */
+}
+
+.cookie-banner button {
+    background-color: #dc3545; /* Red button background */
+    border: none; /* Remove border */
+    padding: 8px 20px; /* Add padding */
+    color: #fff; /* White text color */
+    cursor: pointer; /* Set cursor to pointer */
+    border-radius: 4px; /* Rounded corners */
+    margin-left: 20px; /* Add space on the left */
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif; /* Set font family */
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+    box-sizing: border-box; /* Use border-box box sizing */
+}
+
+/* Discount banner styles */
+.discount-banner {
+    background-color: #1FAB3E; /* Dark green background */
+    color: #fff; /* White text color */
+    padding: 40px 0; /* Add padding */
+}
+
+.banner-content h2 {
+    font-size: 28px; /* Set font size */
+    margin-bottom: 20px; /* Add space at the bottom */
+}
+
+.banner-content p {
+    font-size: 18px; /* Set font size */
+    margin-bottom: 20px; /* Add space at the bottom */
+}
+
+.banner-content .btn {
+    font-size: 16px; /* Set font size */
+    padding: 12px 24px; /* Add padding */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #095428; /* Green button background */
+    border: none; /* Remove border */
+}
+
+.banner-content .btn:hover {
+    background-color: #095428; /* Darker green on hover */
+}
+
+/* News article styles */
+.news-article {
+    background-color: #f9f9f9; /* Light gray background */
+    padding: 20px; /* Add padding */
+    margin-bottom: 20px; /* Add space at the bottom */
+}
+
+/* Additional body styles */
+body {
+    background-color: #fff; /* White background */
+    color: #fff; /* White text color */
+}
+
+/* Styles for registration-login section */
+.registration-login {
+    margin-top: 50px; /* Add space at the top */
+}
+
+/* Styles for form labels */
+.form-label {
+    font-weight: bold; /* Make labels bold */
+}
+
+/* Styles for form inputs */
+.form-control {
+    width: 100%; /* Set width to 100% */
+    padding: 10px; /* Add padding */
+    margin-bottom: 20px; /* Add space at the bottom */
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #ccc; /* Gray border */
+}
+
+/* Styles for submit button */
+.btn-primary {
+    padding: 10px 20px; /* Add padding */
+    background-color: #007bff; /* Blue button background */
+    color: #fff; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Set cursor to pointer */
+}
+
+/* Styles for columns containing forms */
+.col-md-6 {
+    padding: 0 15px; /* Add padding to the sides */
+}
