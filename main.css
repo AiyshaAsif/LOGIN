@@ -67,7 +67,8 @@
     list-style-type: none; /* Remove bullet points */
     padding: 0; /* Remove padding */
     margin: 0; /* Remove margin */
-    text-align: left; /* Align text to the left */
+    text-align: center; /* Center text */
+    white-space: nowrap; /* Prevent links from wrapping */
 }
 
 /* Styles for items in bottom navbar */
@@ -80,21 +81,6 @@
 /* Remove margin for last item in bottom navbar */
 .bottom-nav .container ul li:last-child {
     margin-right: 0;
-}
-/* Styles for items in bottom navbar */
-.bottom-nav .container ul {
-    list-style-type: none; /* Remove bullet points */
-    padding: 0; /* Remove padding */
-    margin: 0; /* Remove margin */
-    text-align: center; /* Center text */
-    white-space: nowrap; /* Prevent links from wrapping */
-}
-
-/* Styles for items in bottom navbar */
-.bottom-nav .container ul li {
-    display: inline-block; /* Display items inline */
-    margin-right: 10px; /* Add spacing between items */
-    font-size: 14px; /* Reduce font size */
 }
 
 /* Header styles */
@@ -335,6 +321,8 @@ header {
     font-size: 13px; /* Set font size */
     opacity: 0.6; /* Set opacity */
 }
+
+
 
 /* Styles for cookie banner */
 .cookie-banner {
